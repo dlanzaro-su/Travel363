@@ -1,0 +1,157 @@
+.navbar{
+    background-color: rgba(0, 0, 0, .75) !important;
+}
+
+.main-bg{
+    min-width:100%;
+    min-height:100%;
+    margin: 0;
+}
+
+.sign-up{
+    color:#fff;
+}
+
+.header-img{
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, .75) !important;
+}
+
+.page-title{
+    position: relative;
+    bottom:450px;
+    font-family: 'Rock Salt', cursive;
+    color:#fff;
+    font-size:6em;
+}
+
+.body-title{
+    margin-top: 40px;
+    color:#05903a;
+}
+
+.about-txt{
+    background-color: rgba(0, 0, 0, .75); 
+    padding:50px;
+    color:#fff;
+}
+
+.about-bg{
+    background-image: url("../img/leaves.png");
+    background-size: cover;
+    width:100%;
+    padding:20px;
+}
+
+.previews{
+    margin:20px;
+}
+
+.explore-previews{
+    margin:80px 0px;
+    display:flex;
+    align-content: center;
+}
+
+.explore-img{
+    width:100%;
+}
+
+.explore-content{
+    background-color:#05903a;
+}
+
+.explore-text{
+    padding:20px;
+    color:#fff;
+}
+
+.footer{
+    background-color: #05903a;
+    padding:40px;
+}
+
+.footer-links{
+    padding-top:40px;
+    color:#fff;
+}
+
+a{
+    color:#afafaf;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+.logo{
+    width:200px;
+    height:auto;
+}
+
+
+.img-previews{
+    width:100%;
+}
+.resort-previews{
+    padding:0px;
+    margin:10px;
+}
+
+.resort-previews:hover{
+    text-decoration: none; 
+    background-color: #05903a;
+}
+
+.resort-body{
+    padding:20px;
+    height:300px;
+}
+
+.resort-btn:hover{
+    color:#fff;
+    border-color: #fff;
+}
+
+.page-link{
+    color:#05903a;
+}
+
+.page-link:hover{
+    background-color: #05903a;
+    color:#fff;
+}
+
+.explore-carousel{
+    padding-bottom:40px;
+}
+
+.book-form{
+    padding-bottom: 40px;
+}
+
+.call-to-action{
+    color:#fff;
+    background-color: #3f3f3f;
+    width:100%;
+    padding:60px 0px;
+    margin:40px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sign-up{
+        margin-top:30px;
+    }
+    .page-title{
+        bottom:550px;
+    }
+    .main-bg{
+        height:auto;
+        width:100%;
+    }
+}
